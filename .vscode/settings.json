@@ -1,4 +1,6 @@
 {
+    // Step 1
+    //
     // install the Black, isort, Pylint extensions and then
     // use CTRL + "/" on the lines below to uncomment
 
@@ -13,9 +15,21 @@
     // "black-formatter.args": ["--line-length", "99"],
     //   "isort.args":["--profile", "black", "--line-length", "99"],
     
-    //   "python.analysis.indexing": true,
-    //   "python.analysis.diagnosticMode": "openFilesOnly", // you can put "workspace" when the project is mostly clean
-    //   "python.analysis.typeCheckingMode": "basic", // "off" if overwhelming, "strict" if you feel like it
-    //   "python.linting.enabled": true,
-    //   "python.linting.pylintEnabled": true,
-  }
+
+    // Step 2
+    //
+    // Enable linting
+
+    // "python.linting.enabled": true,
+    // "python.linting.pylintEnabled": true,
+
+    
+    // Step 3
+    //
+    // Enable code analysis
+
+    // "python.analysis.indexing": true,
+    // "python.analysis.diagnosticMode": "openFilesOnly", // you can put "workspace" when the project is mostly clean
+    // "python.analysis.typeCheckingMode": "basic", // "off" if overwhelming, "strict" if you feel like it
+
+    }
